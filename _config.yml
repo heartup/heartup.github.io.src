@@ -1,0 +1,27 @@
+destination: ~/heartup.github.io
+title: Li Huanhuan
+description: My Personal Blog
+author: Li Huanhuan
+logo: /static/img/avatar.png
+github: https://github.com/heartup
+about: Developer
+
+baseurl: "https://heartup.github.io"
+url: "https://heartup.github.io"
+
+disqus_shortname: lihuanhuan
+google_analytics: UA-88029887-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: [java]
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
