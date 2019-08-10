@@ -13,7 +13,10 @@ minimal regret strategy is the average strategy across all iterations.
 [RPSTrainer](https://heartup.github.io/static/raw/RPSTrainer.zip)
 
 #### Kuhn Poker's Information Set
-The game tree:
-- Chance Node
-   - no other info
-   - P1 pass
+P0 has 6 IS:
+- no one has actioned, P0 was dealed card0, card1 or card2 (3 IS)
+- P0 pass, P1 bet, P0 was dealed card0, card1 or card2 (3 IS)
+
+P1 has 6 IS:
+- P0 pass, P1 was dealed card0, card1 or card2 (3 IS)
+- P1 bet, P1 was dealed card0, card1 or card2 (3 IS)
